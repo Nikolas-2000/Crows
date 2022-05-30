@@ -1,0 +1,37 @@
+<template>
+  <div class="topStripe">
+    <button class="StripeButton">Информация</button>
+    <button class="StripeButton">Рекламные блоки</button>
+    <button class="StripeButton">База даных</button>
+  </div>
+</template>
+
+<script>
+
+export default {
+  components: {
+  }
+}
+</script>
+
+<style>
+  .topStripe{
+    background-color: rgb(206, 206, 206);
+    text-align: center;
+    display: flex;
+    border-radius: 15px;
+  }
+  .StripeButton{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    flex:1;
+    background-color: rgb(122, 122, 131);
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+  }
+  .StripeButton:hover{
+    background-color: rgb(102, 102, 102) ;
+  }
+</style>
