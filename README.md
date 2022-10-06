@@ -14,19 +14,19 @@ crowsfront - визуальная часть
 
 MongoDB- База данных
 
-Для запуска понадобиться node.js акутальной верси 
+Для запуска понадобиться node.js акутальной верси:
 sudo apt install nodejs
 
-База данных mongodb
+База данных mongodb:
 npm install mongodb
 
-И Vue.js
+И Vue.js:
 npm install vue
 
-Для запуска понадобиться запустить сервер
+Для запуска понадобиться запустить сервер:
 npm run start
 
-И клиент
+И клиент:
 npm run serve
 
 Исполнитель Орлов Н.А.
